@@ -1,0 +1,40 @@
+
+*{
+	font-family: 'Noto Sans JP', 'Robot', 'MS Sans Serif', 'Verdana', 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', 'sans-serif';
+}
+html,body{
+	height: 90%;
+
+}
+
+.main-container{
+	position: relative;
+	height: 97vh;
+	width:100%;
+	/*
+	margin:5% 5% 5% 5%;
+*/
+	background: #FFFFFF;
+	border: 1px solid #ffffff;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+}
+
+.main-content{
+	position:absolute;
+	bottom:0;
+	right:0;
+	height: 90%;
+	width:75%;
+
+
+	background: #FFEBEB;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+}
+
+ul{
+	list-style-type: none;
+	display: inline;
+}
+
