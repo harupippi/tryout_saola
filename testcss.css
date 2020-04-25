@@ -25,13 +25,226 @@ html,body{
 	bottom:0;
 	right:0;
 	height: 90%;
-	width:75%;
+	width:80%;
 
 
 	background: #FFEBEB;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 	border-radius: 30px;
 }
+
+.content{
+	position:absolute;
+	bottom:2%;
+	right:2%;
+	height: 90%;
+	width:80%;
+
+	background: #FFFFFF;
+	border-radius: 30px;
+}
+.member-box{
+	width: 30%;
+	height: 100%;
+	float: left;
+
+	/*debug
+	background: #dddddd;
+	*/
+}
+.personal-box{
+	width: 68%;
+	height: 100%;
+	float:right;
+	
+	background: #888888;
+}
+
+.member{
+
+	width: 60%;
+	margin:8% auto 5%;
+
+
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.29);
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.member-list{
+	width: 95%;
+	height: 85%;
+	margin:10% auto;
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.29);
+	box-sizing: border-box;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+	overflow:auto;
+}
+
+.member-list-content li{
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+.student-icon{
+	position: relative;
+	top: 15px;
+	
+}
+
+.personal{
+	width: 95%;
+	height: 91%;
+	margin: 5% auto 0;
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.29);
+	box-sizing: border-box;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+}
+
+.personal-info{
+	height:22%;
+	width: 100%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.29);
+}
+.personal-info-content{
+	width: 80%;
+	margin:2% auto;
+}
+
+.personal-progress{
+	overflow:auto;
+	height: 75%;
+}
+.grade{
+	width: 20%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 75%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.29);
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.grade-info{
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(0, 0, 0, 0.29);
+	border-collapse: separate;
+  	border-spacing: 0;
+ 	border-radius: 10px;
+ 	overflow: hidden;
+
+}
+.grade-info thead th,.grade-info tbody td, .grade-info tbody td{
+
+  	border: 1px solid rgba(0, 0, 0, 0.29);	
+}
+.grade-info thead th + th,.grade-info tbody td{
+	border-left: 1px solid rgba(0, 0, 0, 0.29);
+}
+
+.grade-info tbody tr:last-child th,.grade-info tbody tr:last-child td{
+	border-bottom: none;
+}
+
+.some-information{
+	width: 100%;
+	height: 10%;
+	margin-top: 5%;
+	
+	display: inline-block;
+	position: relative;
+	right: 7%
+}
+
+.some-information li{
+	width: 20%;
+	display: inline-block;
+	background: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.29);
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+.class-name{
+	width: 15%;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+
+	margin-left: 2%;
+	margin-top: 10%;
+}
+
+.menu-content{
+	position: absolute;
+	right:5%;
+}
+
+.menu-content li{
+	margin-top: 2%;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.sidebar-content{
+	position: absolute;
+	top:17%;
+	left: 2%;
+}
+
+.sidebar-content li{
+	margin-left: 2%;
+	margin-bottom: 100%;
+}
+
+.going{
+	width: 9%;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 40px;
+	position: absolute;
+	top: 52%;
+	left: 10%;
+}
+
+.completed{
+	width: 9%;
+	background: #FFFFFF;
+	color: rgba(0, 0, 0, 0.47);
+	position: absolute;
+	top: 57%;
+	left: 10%;
+}
+
+
+/*スクロールバー非表示*/
+.non-scrollbar::-webkit-scrollbar{
+	display: none;
+}
+/*スクロールバー非表示*/
 
 ul{
 	list-style-type: none;
