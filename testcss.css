@@ -56,8 +56,9 @@ html,body{
 	width: 68%;
 	height: 100%;
 	float:right;
-	
+	/*debug
 	background: #888888;
+	*/
 }
 
 .member{
@@ -75,6 +76,10 @@ html,body{
 
 .text-center{
 	text-align: center;
+}
+
+.bolder{
+	font-weight: bold;
 }
 
 .member-list{
@@ -155,6 +160,11 @@ html,body{
  	overflow: hidden;
 
 }
+
+.grade-info th{
+	background: #fe1a1a;
+}
+
 .grade-info thead th,.grade-info tbody td, .grade-info tbody td{
 
   	border: 1px solid rgba(0, 0, 0, 0.29);	
